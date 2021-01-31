@@ -45,7 +45,6 @@ ptyprocess==0.6.0
 pyparsing==2.2.2
 PyQt5==5.12
 PyQt5-sip==4.19.14
-PyQt5Designer==5.10.1
 PySocks==1.6.8
 pytesseract==0.3.3
 python-dateutil==2.7.3
