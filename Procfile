@@ -1,1 +1,1 @@
-web: gunicorn modeltester:server
+web: gunicorn modeltester:app
