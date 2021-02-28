@@ -1,62 +1,64 @@
 absl-py==0.11.0
 alabaster==0.7.12
 requests==2.21.0
-
-argon2-cffi @ file:///C:/ci/argon2-cffi_1613038019788/work
+anaconda-client
+anaconda-project==0.8.2
+anaconda-navigator
+argon2-cffi
 asn1crypto==0.24.0
 astor==0.8.1
 astropy==3.1
 astunparse==1.6.3
 async-generator==1.10
 atomicwrites==1.4.0
-attrs @ file:///tmp/build/80754af9/attrs_1604765588209/work
+attrs
 Babel==2.6.0
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+backcall
 backports.os==0.1.1
 backports.shutil-get-terminal-size==1.0.0
-beautifulsoup4 @ file:///home/linux1/recipes/ci/beautifulsoup4_1610988766420/work
+beautifulsoup4
 bitarray==0.8.3
 bkcharts==0.2
 blaze==0.11.3
-bleach @ file:///tmp/build/80754af9/bleach_1612211392645/work
+bleach
 bokeh==1.0.2
 boto==2.49.0
 Bottleneck==1.2.1
 brotlipy==0.7.0
 cachetools==4.2.0
 certifi==2020.12.5
-cffi @ file:///C:/ci/cffi_1613247308275/work
-chardet @ file:///C:/ci/chardet_1607706910910/work
-click @ file:///home/linux1/recipes/ci/click_1610990599742/work
-cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1598884132938/work
+cffi 
+chardet
+click
+cloudpickle
 clyent==1.2.2
-colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+colorama
 comtypes==1.1.7
 conda==4.9.2
 conda-build==3.17.6
-conda-package-handling @ file:///C:/ci/conda-package-handling_1603018162806/work
+conda-package-handling
 conda-verify==3.1.1
 contextlib2==0.5.5
-cryptography @ file:///C:/ci/cryptography_1613401470461/work
+cryptography
 cycler==0.10.0
 Cython==0.29.2
 cytoolz==0.11.0
 dask==1.0.0
 datashape==0.5.4
-decorator @ file:///home/ktietz/src/ci/decorator_1611930055503/work
-defusedxml @ file:///home/ktietz/src/ci_mi/defusedxml_1612808095953/work
+decorator
+defusedxml
 distributed==1.28.1
 docutils==0.14
 entrypoints==0.3
 et-xmlfile==1.0.1
 fastcache==1.0.2
-filelock @ file:///home/linux1/recipes/ci/filelock_1610993975404/work
-Flask @ file:///home/ktietz/src/ci/flask_1611932660458/work
-Flask-Cors @ file:///tmp/build/80754af9/flask-cors_1609957731919/work
+filelock
+Flask
+Flask-Cors
 future==0.18.2
 gast==0.2.2
 gevent==1.3.7
-glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
+glob2
 google-auth==1.24.0
 google-auth-oauthlib==0.4.2
 google-pasta==0.2.0
@@ -65,15 +67,15 @@ grpcio==1.34.0
 h5py==2.10.0
 HeapDict==1.0.1
 html5lib==1.0.1
-idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
+idna 
 imageio==2.4.1
 imagesize==1.1.0
-importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
-iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
-ipykernel @ file:///C:/ci/ipykernel_1596208728219/work/dist/ipykernel-5.3.4-py3-none-any.whl
-ipython @ file:///C:/ci/ipython_1612213113434/work
-ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
-ipywidgets @ file:///tmp/build/80754af9/ipywidgets_1610481889018/work
+importlib-metadata
+iniconfig
+ipykernel 
+ipython 
+ipython-genutils
+ipywidgets 
 isort==4.3.4
 itsdangerous==1.1.0
 jdcal==1.4
