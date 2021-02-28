@@ -1,5 +1,6 @@
 absl-py==0.11.0
 alabaster==0.7.12
+requests==2.21.0
 anaconda-client
 anaconda-navigator
 anaconda-project==0.8.2
@@ -183,7 +184,6 @@ pyzmq==20.0.0
 QtAwesome==0.5.3
 qtconsole==4.4.3
 QtPy==1.9.0
-requests==2.21.0
 requests-oauthlib==1.3.0
 rope==0.11.0
 rsa==4.6
