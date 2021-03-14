@@ -3,11 +3,11 @@ import os
 import numpy as np
 from keras.models import load_model
 import tensorflow as tf
-graph = tf.get_default_graph()
+#graph = tf.get_default_graph()
 
 from flask import Flask, redirect, url_for, request
-classifier = load_model('model')
-labels = ['Aga Khan Palace','Baps','Pataleshwar','Ramdara temple','Shaniwar Wada']
+classifier = load_model('model.h5')
+labels = ['Aga Khan Palace','Shaniwar Wada']
 UPLOAD_FOLDER = './upload'
 
 app = Flask(__name__)
@@ -22,8 +22,7 @@ def getImageLabel():
     img = cv2.imread(path)
     img = cv2.resize(img, (64, 64))
     img = np.reshape(img, [1, 64, 64, 3])
-    with graph.as_default():
-        classes = classifier.predict_classes(img)
+    classes = classifier.predict_classes(img)
     print(classes)
     return {'id':reqId,'label':labels[classes[0]]}
 
